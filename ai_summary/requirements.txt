@@ -1,0 +1,6 @@
+# ai_summary/ requirements
+# Install with: pip install -r requirements.txt
+
+google-generativeai>=0.8.0   # Gemini API client (used in gemini_api.py)
+openai>=1.40.0                # OpenAI API client (used in openai_api.py)
+python-dotenv>=1.0.0          # loads .env into environment variables (used by backend/config.py)

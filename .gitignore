@@ -1,0 +1,50 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Database
+*.db
+
+# Outputs
+outputs/
+uploads/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Database
+*.db
+
+# Outputs
+outputs/
+uploads/
+
+# IDE
+.vscode/
+.idea/

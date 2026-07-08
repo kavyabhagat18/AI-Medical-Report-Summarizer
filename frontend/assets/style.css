@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Global Styles */
+html, body, [data-testid="stAppViewContainer"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #F8FAFC !important;
+    color: #1E293B;
+}
+
+/* Custom CSS to inject and clean up default Streamlit page elements if needed */
+[data-testid="stHeader"] {
+    background-color: rgba(248, 250, 252, 0.8);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #E2E8F0;
+}
+
+/* Sidebar Custom Styling */
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF !important;
+    border-right: 1px solid #E2E8F0;
+}
+
+[data-testid="stSidebar"] .stMarkdown {
+    color: #1E293B;
+}
+
+/* Cards */
+.card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid #E2E8F0;
+    margin-bottom: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+    border-color: #CBD5E1;
+}
+
+/* Hero Section */
+.hero-card {
+    background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+    border: 1px solid #BFDBFE;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-title {
+    color: #1E3A8A;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    color: #3B82F6;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hero-desc {
+    color: #475569;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Features Grid */
+.feature-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.1);
+    border-color: #3B82F6;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #2563EB;
+    margin-bottom: 16px;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #1E293B;
+    margin-bottom: 10px;
+}
+
+.feature-desc {
+    font-size: 0.9rem;
+    color: #64748B;
+    line-height: 1.5;
+}
+
+/* Workflow Cards */
+.workflow-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.workflow-step {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 20px 15px;
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    transition: all 0.3s ease;
+}
+
+.workflow-step:hover {
+    border-color: #2563EB;
+    background-color: #F0F9FF;
+    transform: translateY(-2px);
+}
+
+.workflow-arrow {
+    color: #94A3B8;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Status Badges */
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.badge-success {
+    background-color: #DCFCE7;
+    color: #16A34A;
+    border: 1px solid #BBF7D0;
+}
+
+.badge-warning {
+    background-color: #FEF3C7;
+    color: #D97706;
+    border: 1px solid #FDE68A;
+}
+
+.badge-danger {
+    background-color: #FEE2E2;
+    color: #DC2626;
+    border: 1px solid #FCA5A5;
+}
+
+.badge-info {
+    background-color: #E0F2FE;
+    color: #0369A1;
+    border: 1px solid #BAE6FD;
+}
+
+/* Custom Table Styles */
+.medical-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #E2E8F0;
+}
+
+.medical-table th {
+    background-color: #F1F5F9;
+    color: #475569;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.medical-table td {
+    padding: 14px 16px;
+    font-size: 0.875rem;
+    color: #334155;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.medical-table tr:last-child td {
+    border-bottom: none;
+}
+
+.medical-table tr:hover td {
+    background-color: #F8FAFC;
+}
+
+/* Patient Info Grid */
+.patient-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.patient-info-item {
+    border-bottom: 1px solid #F1F5F9;
+    padding-bottom: 10px;
+}
+
+.patient-info-label {
+    font-size: 0.75rem;
+    color: #64748B;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+}
+
+.patient-info-value {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1E293B;
+}
+
+/* Footer styling */
+.footer-text {
+    text-align: center;
+    color: #94A3B8;
+    font-size: 0.875rem;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #E2E8F0;
+}

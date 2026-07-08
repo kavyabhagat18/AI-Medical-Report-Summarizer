@@ -1,0 +1,58 @@
+ABC  DlAGNOSTlCS   LAB0RAT0RY
+
+Patlent Name  :   RahuI    Sharma
+
+Patient lD :  BT-2O26-1O458
+
+Age  : 45Years
+
+Gender:Male
+
+Referrlng   Doctor : Dr  Anil   Kumar
+
+Collectlon Date :3O/O6/2O26
+
+Report Date :3O/O6/2O26
+
+*************** COMPLETE BL00D C0UNT ****************
+
+Hemoglobln          l3.8 g/dL
+
+RBC Count      4.82 milllon/uL
+
+WBC Count
+
+118OO /uL
+
+Platelet Count
+245OOO /uL
+
+Reference Range
+
+13.5 -17.5
+
+4.5 -5.9
+
+4OOO-11OOO
+
+15OOOO-45OOOO
+
+-------------------------------
+
+BL00D SUGAR TEST
+
+Fastlng Blood Sugar
+
+165 mg/dL
+
+HbAlc
+
+8.l %
+
+Post Prandlal Blood Sugar
+
+245 mg/dL
+
+...
+
+END  0F  REP0RT

@@ -1,0 +1,13 @@
+Patient Name: Ramesh Kumar Sharma
+Age: 45 Years
+Gender: Male
+Date: 2026-07-03
+
+Laboratory Results:
+Hemoglobin: 10.2 g/dL (Reference Range: 13.0-17.0)
+WBC Count: 8.5 k/uL (Reference Range: 4.0-11.0)
+Fasting Blood Sugar: 165 mg/dL (Reference Range: 70-99)
+Vitamin D: 18 ng/mL (Reference Range: 30-100)
+
+Doctor Notes:
+Patient shows moderate anemia and vitamin D deficiency. Also exhibits hyperglycemia. Advised to restrict simple sugars, increase iron and vitamin D intake, and repeat laboratory tests in 30 days.
